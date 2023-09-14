@@ -1,3 +1,1 @@
-CAPS_WORD_ENABLE = yes
-BOOTMAGIC_ENABLE = no
-NKRO_ENABLE = yes
+CAPS_WORD_ENABLE = yes		# Caps Word
