@@ -10,13 +10,11 @@
         "**/*.uf2": true
     },
     "files.associations": {
-        // QMK Filetypes
         "keyboard.json": "jsonc",
         "info.json": "jsonc",
         "keymap.json": "jsonc",
         "qmk.json": "jsonc",
         "qmk_module.json": "jsonc",
-        // Standard filetypes
         "*.h": "c",
         "*.c": "c",
         "*.inc": "c",
@@ -25,7 +23,11 @@
         "xstddef": "c",
         "type_traits": "c",
         "utility": "c",
-        "ranges": "c"
+        "ranges": "c",
+        "map": "cpp",
+        "set": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     },
     "[markdown]": {
         "editor.trimAutoWhitespace": false,
@@ -53,5 +55,6 @@
             "fileMatch": ["keymap.json"],
             "url": "./data/schemas/keymap.jsonschema"
         }
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
